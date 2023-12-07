@@ -23,11 +23,11 @@ const BookCard = ({ data, handleLikedList }) => {
           <span>{language}</span>
           <span>{pages} pages</span>
         </div>
-
-        <button onClick={likeHandler}>
-          <AiFillHeart color={like ? "red" : "#e0e0e0"} fontSize="1.8rem" />
-        </button>
       </div>
+
+      <button onClick={likeHandler}>
+        <AiFillHeart color={like ? "red" : "#e0e0e0"} fontSize="1.8rem" />
+      </button>
     </div>
   );
 };
