@@ -3,7 +3,7 @@ import { books as bookData } from "../constants/mockData";
 import BookCard from "./BookCard";
 
 import SideCard from "./SideCard";
-import styles from "./BookCard.module.css";
+import styles from "./Books.module.css";
 import SearchBox from "./SearchBox";
 
 const Books = () => {
